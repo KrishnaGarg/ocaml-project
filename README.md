@@ -1,4 +1,4 @@
-# DSL For Matrix Implementation Using OCAML
+# DSL For Matrices: Implemented Using OCAML & Verified Using COQ
 
 * Matrix operations implemented:*
 - Assignment
@@ -29,5 +29,8 @@ On the OCAML command prompt, run:
 - testcase1.ml contains the test cases for testing every statement individually
 - testcase2.ml contains the single test case of 29 lines.
 
+For DSL verification, [CoqIDE](https://coq.inria.fr/download) is required.
+Run `verified-dsl.v` by opening CoqIDE
+
 # Credits
-Joint work with Sutanu Ghosh
+Joint work with Sutanu Ghosh for DSL implementation in OCAML
